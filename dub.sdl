@@ -1,0 +1,6 @@
+name "rx-gtkd"
+description "A utility for rx with gtk-d"
+authors "lempiji"
+license "MIT"
+dependency "rx" version="~>0.13.0"
+dependency "gtk-d" version="~>3.9.0"

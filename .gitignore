@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/rx-gtkd
+rx-gtkd.so
+rx-gtkd.dylib
+rx-gtkd.dll
+rx-gtkd.a
+rx-gtkd.lib
+rx-gtkd-test-*
+*.exe
+*.o
+*.obj
+*.lst

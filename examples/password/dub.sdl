@@ -1,0 +1,7 @@
+name "password"
+description "A minimal D application."
+authors "Koich"
+license "proprietary"
+dependency "gtk-d" version="~>3.9.0"
+dependency "rx" version="~>0.13.0"
+dependency "rx-gtkd" path="../../"
