@@ -4,7 +4,7 @@ Some utility functions for using `rx` with `gtk-d`
 # Example 1 (30 seconds)
 
 ```d
-// If check is checked, the button is clickable
+// If CheckButton is checked, the button is clickable
 
 import gtk.CheckButton;
 import gtk.Button;
@@ -12,7 +12,7 @@ import rx;
 import rx.gtk;
 
 auto disposeBag = new CompositeDisposable;
-auto check = new CheckBox("I agree");
+auto check = new CheckButton("I agree");
 auto button = new Button("Next");
 
 button.setSensitiveWith(check.toggledAsObservable(), disposeBag);
