@@ -1,6 +1,9 @@
 # rx-gtkd
 Some utility functions for using `rx` with `gtk-d`
 
+- rx : [https://github.com/lempiji/rx](https://github.com/lempiji/rx)
+- gtk-d : [https://github.com/gtkd-developers/GtkD](https://github.com/gtkd-developers/GtkD)
+
 # Example 1 (30 seconds)
 
 ```d
